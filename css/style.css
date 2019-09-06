@@ -1,0 +1,204 @@
+/* ----------------------- Body Style ------------------------- */
+body {
+    position: relative; 
+}
+/* ----------------------------------------------------------- */
+/* --------------------  Navbar Style ------------------------ */
+.navbar{
+    background:linear-gradient(225.71deg, #AD00D7 0%, rgba(94,102,233,0.85) 53.95%);
+}
+.navbar-brand{
+    font-size: 36px;
+}
+.navbar,.navbar-nav{
+    margin: 0;
+    padding: 0;
+}
+.navbar-collapse{
+    text-align: center;
+}
+.started{
+    height: 40px;	
+    width: 140px;
+    font-weight: bolder;	
+    border-radius: 30px;	
+    background-color: #FFFFFF;
+    color: #673ab7 !important;
+}
+
+.navbar .navbar-brand img{
+    padding: 0px 7px;
+    height: 56px;
+    width: 170px;
+}
+.navbar .navbar-nav .nav-item .nav-link{
+    color: #FFFFFF;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover{
+    color: #000;
+}
+.navbar .navbar-nav .nav-item{
+    padding:14px 10px;
+}
+
+.navbar-nav li.active{
+	background-color: rgba(237, 205, 31, 1);
+	color: #fff;
+}
+/* -------------------------------------------- */
+.intro{
+    background: linear-gradient(225.71deg, #AD00D7 0%, rgba(94,102,233,0.85) 53.95%, rgba(0,224,255,0.68) 100%);
+}
+.introText{
+    color: white;
+}
+.introText h2{
+    line-height:50px ;
+    font-size: 35px;
+}
+.introText p{
+    font-size: 20px;
+}
+.introText .btn{
+    color: white;
+    min-width: 45%;
+    padding: 14px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.btnTry{
+    border-radius: 30px;
+    background-color: #CE00FF;
+}
+.btnSchedule{
+    border: 3px solid #FFFFFF;	border-radius: 30px;
+}
+/* ------------------------- features ----------------- */
+#features h2 ,h1{
+    color: #CE00FF;
+    font-size: 40px;
+}
+#features {
+    padding: 60px 0 40px 0;
+  }
+  
+  #features .box {
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 0 10px 40px 10px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #features .box:hover {
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+  
+  #features .icon {
+    position: absolute;
+    left: 0px;
+    /* color: #007bff; */
+    color: #CE00FF;
+    
+    /* color: white; */
+
+    /* top: calc(50% - 32px); */
+  }
+ 
+  
+  #features .title {
+    margin-left: 70px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 30px;
+    color: #71018B;
+  }
+  
+  #features .title a {
+    color: #111;
+  }
+  
+  #features .box:hover .title a {
+    color: #007bff;
+  }
+  
+  #features .description {
+    font-size: 20px;
+    color: #71018B;
+    margin-left: 70px;
+    line-height: 24px;
+    margin-bottom: 0;
+  }
+  .btnDiscover{
+    height: 57px;	
+    width: 256px;
+    font-size: 20px;
+    color: white;
+    font-weight: bolder;	
+    border-radius: 30px;	
+    background-color: #CE00FF;
+    text-align: center;
+  }
+  /* ------------------ Content ------------------- */
+.content h2{
+    color: #71018B;
+    font-size: 25px;
+    font-weight: bold; 
+}
+.content p{
+    color: #71018B;
+    font-size: 20px;
+}
+.content a{
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 20px;
+    color: #CE00FF;
+}
+/* -------------------------------------------------------- */
+.btnSignUp{
+    background-color: #CE00FF;
+    color: white;
+    height: 70px;	width: 120px;
+    border-radius: 0 5px 5px 0;
+}
+.txtEdit{
+    height: 70px;	width: 170px;
+    border: 2px solid #CE00FF;
+    border-radius: 5px; 
+}
+/* --------------------------------------------------------- */
+@media screen  and (max-width:600px){
+    .imagewidth{
+        width:120px;
+        height: 40px;
+    }
+}
+/* ------------------------------------------------------ */
+.footer{
+    background-color:#71018B;
+    color: white;
+}
+.request{
+    width: 100%;  
+    border-radius: 30px;	
+    background-color: #FFFFFF;
+    color: #CE00FF;
+    font-weight: bold;
+    font-size: 17px;
+}
+.fontawsem a{	
+    background-color: #FFFFFF;	
+    padding: 16px;
+    border-radius: 50%;
+}
+.footer h5{
+    color: rgb(216, 180, 180);
+    font-size: 16px;
+}
+/* --------------------------------------------------------- */
+video{
+    object-fit: cover;
+}
