@@ -177,6 +177,10 @@ body {
     }
 }
 /* ------------------------------------------------------ */
+.foot a{
+    font-size: 15px;
+    color: #FFFFFF;
+}
 .footer{
     background-color:#71018B;
     color: white;
@@ -185,12 +189,13 @@ body {
     width: 100%;  
     border-radius: 30px;	
     background-color: #FFFFFF;
-    color: #CE00FF;
+    color: #CE00FF !important;
     font-weight: bold;
     font-size: 17px;
 }
 .fontawsem a{	
-    background-color: #FFFFFF;	
+    background-color: #FFFFFF;
+    color: #71018B;	
     padding: 16px;
     border-radius: 50%;
 }
